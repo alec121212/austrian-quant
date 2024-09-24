@@ -1,14 +1,27 @@
+
+
+
 # Austrian Quant
-
+---
 This repository contains Python-based **quantitative trading algorithms** developed for use with Quantopian (now discontinued). The code here showcases various strategies for backtesting and analyzing financial data, offering insights into algorithmic trading.
-
-## How the Code Works
-The trading algorithms rely on financial data processing and backtesting to simulate trades and evaluate performance. The scripts load historical stock data from CSV files, calculate key indicators like moving averages, and generate buy/sell signals based on the strategy defined in the code. For example, the quant1.py script uses a momentum-based strategy, where stocks are bought if they show upward momentum, and sold once certain profit thresholds are met. All trades are backtested using the historical data to evaluate profitability.
-
 
 ## Overview
 
-The project includes several trading algorithms written in Python that focus on financial markets analysis and stock trading. Key strategies utilize historical price data, financial indicators, and backtesting principles to develop profitable trading models. 
+The project includes several trading algorithms written in Python that focus on financial markets analysis and stock trading. Key strategies utilize historical price data, financial indicators, and backtesting principles to develop profitable trading models.
+
+Here's an additional snippet for the README that explains how the code works:
+
+---
+
+## How the Code Works
+
+The trading algorithms rely on **financial data processing** and **backtesting** to simulate trades and evaluate performance. The scripts load historical stock data from CSV files, calculate key indicators like moving averages, and generate buy/sell signals based on the strategy defined in the code. For example, the `quant1.py` script uses a **momentum-based strategy**, where stocks are bought if they show upward momentum, and sold once certain profit thresholds are met. All trades are backtested using the historical data to evaluate profitability.
+
+---
+
+This snippet provides a clear, high-level explanation of how the algorithm operates.
+
+
 
 ## Features
 - **Quantitative Analysis**: Scripts that analyze market data and implement trading strategies based on financial indicators.
@@ -44,7 +57,7 @@ Ensure you have all dependencies installed, and input your data (stock prices, f
 Contributions are welcome! Feel free to submit pull requests with improvements, new strategies, or enhanced documentation.
 
 ## License
-This project is licensed under the MIT License. 
+This project is licensed under the MIT License.
 
 ---
 
